@@ -2,10 +2,10 @@
 let count = 0
 function increment() {
     count++;
-    document.getElementById("count-el").innerText = count
+    document.getElementById("count-el").textContent = count
 };
 function save() {
-    saveText = " " + count + " -"
-    document.getElementById("save-el").innerText += saveText
+    saveText = count + " - "
+    document.getElementById("save-el").textContent += saveText
     console.log(count)
 }
