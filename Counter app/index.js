@@ -5,5 +5,7 @@ function increment() {
     document.getElementById("count-el").innerText = count
 };
 function save() {
+    saveText = " " + count + " -"
+    document.getElementById("save-el").innerText += saveText
     console.log(count)
 }
