@@ -12,5 +12,5 @@ function save() {
     saveText = count + " - "
     saveEl.textContent += saveText
     countEl.textContent = 0
-    
+    count = 0
 }
